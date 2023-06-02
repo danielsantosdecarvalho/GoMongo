@@ -9,6 +9,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
+//Meu teste Struct
 type Post struct {
 	ID    int    `json:"id"`
 	Title string `json:"title"`
